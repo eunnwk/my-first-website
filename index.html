@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 첫 웹사이트</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gray-100 flex items-center justify-center">
+    <div class="text-center space-y-8">
+        <h1 class="text-4xl font-bold text-gray-800">
+            🎉 내가 만든 첫 웹사이트!
+        </h1>
+        
+        <p class="text-lg text-gray-600">
+            Figma → 코드 → 실제 웹사이트까지 성공! 
+        </p>
+        
+        <!-- Figma에서 생성한 버튼을 여기에 넣을 예정 -->
+        <div class="space-y-4">
+            <!-- 구글로 이동하는 버튼 -->
+            <button 
+                onclick="window.open('https://www.google.com', '_blank')" 
+                class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200"
+            >
+                🔍 구글로 이동하기
+            </button>
+            
+            <!-- GitHub로 이동하는 버튼 -->
+            <button 
+                onclick="window.open('https://github.com', '_blank')" 
+                class="bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200"
+            >
+                🐱 GitHub 구경하기
+            </button>
+            
+            <!-- Figma로 이동하는 버튼 -->
+            <button 
+                onclick="window.open('https://figma.com', '_blank')" 
+                class="bg-purple-500 hover:bg-purple-600 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200"
+            >
+                🎨 Figma 보러가기
+            </button>
+        </div>
+        
+        <p class="text-sm text-gray-500">
+            버튼을 클릭해보세요! 새 탭으로 페이지가 열립니다.
+        </p>
+    </div>
+</body>
+</html>
